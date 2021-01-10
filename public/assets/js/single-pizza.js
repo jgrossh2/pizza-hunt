@@ -45,7 +45,6 @@ function printPizza(pizzaData) {
   $createdAt.textContent = createdAt;
   $size.textContent = size;
   $toppingsList.innerHTML = toppings
-  console.log("+++++++++++++++++++", toppings)
     .map(topping => `<span class="col-auto m-2 text-center btn">${topping}</span>`)
     .join('');
 
